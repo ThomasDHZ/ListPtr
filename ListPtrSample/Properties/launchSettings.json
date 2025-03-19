@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ListPtrSample": {
+      "commandName": "Project",
+      "nativeDebugging": true
+    }
+  }
+}
