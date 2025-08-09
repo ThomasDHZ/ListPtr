@@ -10,6 +10,6 @@ namespace ListPtrSample
     public unsafe class ImportDLL
     {
         private const string DLLPath = "..\\..\\..\\..\\x64\\Debug\\SampleDLL.dll";
-        [DllImport(DLLPath, CallingConvention = CallingConvention.StdCall)] public static extern void DLL_AddToArray(int* array, int arrayCount, int addAmount);
+        [DllImport(DLLPath, CallingConvention = CallingConvention.StdCall)] public static extern void DLL_AddToArray(int* array, size_t arrayCount, int addAmount);
     }
 }

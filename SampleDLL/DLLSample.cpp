@@ -2,7 +2,7 @@
 #include <stdexcept>
 #include <SampleSource.h>
 
-void DLL_AddToArray(int* array, int arrayCount, int addAmount)
+void DLL_AddToArray(int* array, size_t arrayCount, int addAmount)
 {
     if (arrayCount == 0)
     {

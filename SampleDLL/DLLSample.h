@@ -3,6 +3,6 @@
 
 extern "C"
 {
-	DLL_EXPORT void DLL_AddToArray(int* array, int arrayCount, int addAmount);
+	DLL_EXPORT void DLL_AddToArray(int* array, size_t arrayCount, int addAmount);
 }
 
